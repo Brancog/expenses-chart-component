@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+:root {
+  // Primary colors
+  --color-soft-red: rgb(236, 119, 95);
+  --color-cyan: rgb(118, 181, 188);
+  // Neutral colors
+  --color-dark-brown: rgb(56, 35, 20);
+  --color-medium-brown: rgb(147, 134, 123);
+  --color-cream: rgb(147, 134, 123);
+  --color-very-pale-orange: rgb(255, 250, 245);
+
+  // Typography
+  --font-family-main: "DM Sans", sans-serif;
+  --font-size-paragraph: 1.125rem;
+  --font-size-heading: 2rem;
+}
