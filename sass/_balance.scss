@@ -1,0 +1,27 @@
+.balance {
+  max-width: 35.25rem;
+  background-color: var(--color-soft-red);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem;
+  border-radius: 15px;
+  margin: 0 auto;
+
+  &__amount {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__my-balance {
+    color: var(--color-very-pale-orange);
+    font-size: var(--font-size-paragraph3);
+  }
+
+  &__my-balance-amount {
+    color: var(--color-very-pale-orange);
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}

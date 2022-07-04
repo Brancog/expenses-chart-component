@@ -18,7 +18,60 @@
     <title>Expenses chart component</title>
   </head>
   <body>
-    My balance $921.48 Spending - Last 7 days mon tue wed thu fri sat sun Total
-    this month $478.33 +2.4% from last month
+    <section class="expenses-chart">
+      <div class="container">
+        <div class="balance">
+          <div class="balance__amount">
+            <p class="balance__my-balance">My balance</p>
+            <h2 class="balance__my-balance-amount">$921.48</h2>
+          </div>
+          <img src="images/logo.svg" alt="" />
+        </div>
+        <div class="card">
+          <h3 class="card__spending">Spending - Last 7 days</h3>
+          <div class="chart">
+            <div class="chart__bar-wrap">
+              <div class="chart__bar chart__bar--mon"></div>
+              <p class="chart__day">Mon</p>
+            </div>
+            <div class="chart__bar-wrap">
+              <div class="chart__bar chart__bar--tue"></div>
+              <p class="chart__day">Tue</p>
+            </div>
+            <div class="chart__bar-wrap">
+              <div class="chart__bar chart__bar--wed"></div>
+              <p class="chart__day">Wed</p>
+            </div>
+            <div class="chart__bar-wrap">
+              <div class="chart__bar chart__bar--thu"></div>
+              <p class="chart__day">Thu</p>
+            </div>
+            <div class="chart__bar-wrap">
+              <div class="chart__bar chart__bar--fri"></div>
+              <p class="chart__day">Fri</p>
+            </div>
+            <div class="chart__bar-wrap">
+              <div class="chart__bar chart__bar--sat"></div>
+              <p class="chart__day">Sat</p>
+            </div>
+            <div class="chart__bar-wrap">
+              <div class="chart__bar chart__bar--sun"></div>
+              <p class="chart__day">Sun</p>
+            </div>
+          </div>
+          <hr class="card__horizontal-line" />
+          <div class="card__stats">
+            <div class="card__stats-1">
+              <p class="card__stats-p">Total this month</p>
+              <h1 class="card__stats-h">$478.33</h1>
+            </div>
+            <div class="card__stats-2">
+              <p class="card__stats-percentage">+2.4%</p>
+              <p class="card__stats-p-2">from last month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

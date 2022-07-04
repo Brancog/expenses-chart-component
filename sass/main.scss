@@ -1,2 +1,41 @@
 @import "variables";
 @import "card";
+@import "balance";
+@import "chart";
+
+body {
+  font-family: var(--font-family-main);
+}
+
+.expenses-chart {
+  height: 100vh;
+  background-color: var(--color-very-pale-orange);
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+
+@media (max-width: 516px) {
+  html {
+    font-size: 85%;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 410px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 340px) {
+  html {
+    font-size: 50%;
+  }
+}

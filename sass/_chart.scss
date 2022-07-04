@@ -1,0 +1,67 @@
+.chart {
+  display: flex;
+  justify-content: space-between;
+  height: 230px;
+  align-items: flex-end;
+  padding: 1rem 0;
+  overflow: hidden;
+
+  &__bar-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    position: relative;
+  }
+
+  &__bar {
+    width: 3.5rem;
+    height: 0;
+    background-color: var(--color-soft-red);
+    border-radius: 0.8rem;
+    transition: all 0.5s;
+    padding-top: 0.5rem;
+    cursor: pointer;
+
+    color: rgba(255, 255, 255, 0);
+    font-weight: 700;
+    text-align: center;
+
+    &:hover {
+      background-color: hsl(10, 79%, 75%);
+      color: rgba(255, 255, 255, 100);
+    }
+
+    &--highest {
+      background-color: rgb(118, 181, 188);
+      &:hover {
+        background-color: hsl(186, 34%, 75%);
+      }
+    }
+
+    &--mon {
+    }
+
+    &--tue {
+    }
+
+    &--wed {
+    }
+
+    &--thu {
+    }
+
+    &--fri {
+    }
+
+    &--sat {
+    }
+
+    &--sun {
+    }
+  }
+
+  &__day {
+  }
+}
